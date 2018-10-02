@@ -3,6 +3,7 @@ from algoritmia.datastructures.mergefindsets import MergeFindSet
 from sesion1y2.labyrinthviewer import LabyrinthViewer
 import random
 
+#Copia y pega del problema 1
 def create_labyrinth(rows, cols): #Intentar Edges con expresion generatriz
     #Paso 1
     vertices = [(i,j) for i in range(rows) for j in range(cols)]
